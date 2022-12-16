@@ -1,0 +1,49 @@
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&w=600")
+        no-repeat center bottom / cover;
+    color: whitesmoke;
+  }
+  .container {
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /*   text-align: center; */
+  }
+  #hero .info h1 {
+    font-size: 3rem;
+    /* text-transform: uppercase; */
+    margin-bottom: 1rem;
+  }
+  #hero .info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  #hero .info p {
+    font-size: 1.2rem;
+    max-width: 50%;
+  }
+  #hero .info a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 0.5em 2em;
+    margin-top: 2rem;
+    color: #ee6c09;
+  }
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  
+
+  
